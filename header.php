@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2697026_baf2v5mkr8r.css">
     <link rel="stylesheet" href="<?php echo $this->options->themeUrl ?>/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="<?php echo $this->options->themeUrl ?>/css/footer.css?ver=1.0.3">
-    
+    <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
 </head>
 <body>
 

@@ -11,9 +11,9 @@ if(isset($_POST['type']))
 	 
 	echo '<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300|Noto+Serif+SC:300&display=swap" rel="stylesheet">';
 	echo '<div class="miracles-pannel">
-	<h1>SpLinx 主题设置面板</h1>
+	<h1>图之库 主题设置面板</h1>
 	
-	作者博客：<a href="https://spinyue.com/">悦图Yue\'s</a> | 问题反馈：<a href="https://spinyue.com/3">Splinx反馈页面</a>
+	作者博客：<a href="https://32tu.com" target="_blank">图之库</a> | 问题反馈：<a href="https://github.com/baixiongmao/Typecho_douyin" target="_blank">图之库反馈页面</a>
 	</p>
 	</div>';
      $highweb = new Typecho_Widget_Helper_Form_Element_Select('highweb',array('0'=>'白天模式','1'=>'夜间模式','2'=>'自动模式'),'0','界面白天/夜晚模式，自动模式：晚上7点开始-凌晨5点期间显示夜间模式','');
